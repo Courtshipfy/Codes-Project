@@ -16,4 +16,6 @@ int main()
     std::vector<int> iv(ia,ia + 6);
 
     for_each(iv.begin(),iv.end(),print<int>());
+
+    
 }
